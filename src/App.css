@@ -1,0 +1,98 @@
+.social-icon {
+    transition: transform 0.2s;
+    color: white;
+    font-size: larger;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text-hover {
+    padding: 5px 10px; /* Add some padding */
+    background-color: transparent; /* Default background */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.text-hover:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+/* Navbar  */
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.nav-link {
+    transition: transform 0.2s ease;
+}
+
+.nav-link:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer  */
+
+.footer {
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+    background-color: #1d1d1d; /* Slightly darker on hover */
+}
+
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Enlarge icons on hover */
+}
+
+/* body  */
+
+body{
+    background-color: bisque;
+}
+
+/* singup  */
+
+.signup-container {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Custom background */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-title {
+    color: #444; /* Dark text for title */
+}
+
+.signup-form img {
+    max-width: 100px;
+    margin-top: 20px;
+}
+
+
+
+
